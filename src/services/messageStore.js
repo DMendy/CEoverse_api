@@ -36,4 +36,7 @@ export const messageStore = {
     logger.info('Message enregistré dans le store', { id: message.id });
     return message;
   },
+  async list() {
+    return readMessages();
+  },
 };

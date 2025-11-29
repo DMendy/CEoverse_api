@@ -68,4 +68,7 @@ export const contactService = {
 
     return record;
   },
+  async list() {
+    return messageStore.list();
+  },
 };

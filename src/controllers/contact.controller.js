@@ -28,4 +28,9 @@ const create = asyncHandler(async (req, res) => {
   res.status(200).json({ ok: true });
 });
 
-export const contactController = { create };
+const list = asyncHandler(async (req, res) => {
+  const messages = await contactService.list();
+  res.status(200).json({ ok: true, data: messages });
+});
+
+export const contactController = { create, list };
