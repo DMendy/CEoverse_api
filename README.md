@@ -25,6 +25,7 @@ Copiez `.env.example` vers `.env` et complétez selon votre provider SMTP / fron
 | `SMTP_HOST` / `SMTP_PORT` / `SMTP_USER` / `SMTP_PASS` / `SMTP_SECURE` | Config Nodemailer. Si absent, un transport JSON stub loggue simplement le contenu. |
 | `RATE_LIMIT_WINDOW` | Fenêtre de rate limiting en ms (défaut `60000`). |
 | `RATE_LIMIT_MAX` | Nombre max de requêtes / fenêtre (défaut `10`). |
+| `MESSAGE_STORE_PATH` | (Optionnel) Chemin absolu pour stocker `messages.json`. Si non défini, `data/messages.json` est utilisé en local et `/tmp/ceoverse-messages.json` sur Vercel. |
 
 ## Architecture
 ```
