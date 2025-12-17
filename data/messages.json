@@ -1,0 +1,11 @@
+[
+  {
+    "id": "87dcaf28-04b7-4f33-a4a0-da07501b3524",
+    "name": "Ava Exemple",
+    "email": "ava@example.com",
+    "message": "Bonjour CEOverse !",
+    "userAgent": "curl/7.88.1",
+    "requesterIp": "::ffff:127.0.0.1",
+    "receivedAt": "2025-11-14T23:06:27.709Z"
+  }
+]

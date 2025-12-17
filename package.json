@@ -1,0 +1,45 @@
+{
+  "name": "ceoverse_api",
+  "version": "1.0.0",
+  "description": "API Express pour traiter les messages du formulaire de contact Ceoverse.",
+  "type": "module",
+  "main": "src/index.js",
+  "scripts": {
+    "dev": "nodemon src/index.js",
+    "start": "node src/index.js",
+    "lint": "eslint ."
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/DMendy/CEoverse_api.git"
+  },
+  "keywords": [
+    "express",
+    "contact",
+    "api"
+  ],
+  "author": "",
+  "license": "MIT",
+  "engines": {
+    "node": ">=18"
+  },
+  "bugs": {
+    "url": "https://github.com/DMendy/CEoverse_api/issues"
+  },
+  "homepage": "https://github.com/DMendy/CEoverse_api#readme",
+  "dependencies": {
+    "cors": "^2.8.5",
+    "dotenv": "^17.2.3",
+    "express": "^5.1.0",
+    "express-rate-limit": "^8.2.1",
+    "helmet": "^8.1.0",
+    "morgan": "^1.10.1",
+    "nodemailer": "^7.0.10",
+    "validator": "^13.15.23"
+  },
+  "devDependencies": {
+    "eslint": "^9.39.1",
+    "globals": "^16.5.0",
+    "nodemon": "^3.1.11"
+  }
+}
